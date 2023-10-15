@@ -10,10 +10,10 @@ use std::mem::swap;
 
 #[allow(unused_variables, unused_assignments)]
 fn main() {
-    let my_option: Option<()> = None;
-    if my_option.is_none() {
-        panic!("is None")
-    }
+    // let my_option: Option<()> = None;
+    // if my_option.is_none() {
+    //     panic!("is None")
+    // }
 
     let my_arr = &[
         -1, -2, -3,
